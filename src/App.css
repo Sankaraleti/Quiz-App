@@ -1,0 +1,91 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.main {
+  width: 75%;
+  background: rgba(12, 35, 123);
+  color: #fff;
+  display: flex;
+  flex-direction: column
+}
+
+.top {
+  height: 50%;
+  position: relative;
+}
+
+.timer {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 70px;
+}
+
+.bottom {
+  height: 50%;
+}
+
+.trivia {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.question {
+  width: 80%;
+  background: linear-gradient(to bottom, #100241, black);
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 25px;
+  text-align: center;
+}
+
+
+
+.money-pyramid {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.money-list {
+  list-style-type: none;
+  width: 100%;
+  padding: 20px;
+}
+
+.moneyItem {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.moneyItem.active {
+  background: teal;
+}
+
+.number {
+  font-size: 18px;
+  font-weight: lighter;
+  width: 30%;
+}
+
+.amount {
+  font-size: 20px;
+  font-weight: 400;
+}
